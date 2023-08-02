@@ -1,0 +1,265 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between  ;
+    height: 70px;
+    margin: 0px 10%;
+    align-items: center;
+    
+}
+.box{
+    position: relative;
+    background-color: beige;
+    z-index: -4;
+    padding-bottom: 100px;
+}
+.marg{
+    background-color: white;
+   
+}
+.list{
+    margin-right: 0px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+#heading{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:30px;
+    width: 70%;
+    padding-bottom: 40px;
+    color: rgb(139, 140, 144);
+    font-size: 18px;
+}
+#btn{ 
+    border-radius: 20px;
+    padding:1% 2.5%;
+    background-color: rgb(54, 225, 23);
+    color:white;
+    border-color:white;
+    border-style: none;
+}
+#background_image{
+    height: 130%;
+    top:-20px;
+    width: 60%;
+    position:absolute;
+    right:-100px;
+    z-index:-2;
+    
+}
+#overlapped_image{
+    
+    height: 160%;
+    position:absolute;
+    top: -100px;
+    right: -70px;
+    z-index: -1;
+        
+}
+#btn1{ 
+    border-radius: 20px;
+    padding:10px 30px;
+    background-color: rgb(54, 225, 23);
+    color:white;
+    border-color:white;
+    border-style: none;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 140, 144);
+}
+.child{
+    margin-top: 10%;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 230px;
+}
+.next{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10%;
+    padding-bottom: 40px;
+    background-color: beige;
+    background-size: cover;
+    z-index: -3;
+}
+body{
+    margin: 0;
+
+}
+.sub_container{
+    
+    margin: 0 10%;
+    line-height:30px;
+    width: 70%;
+    padding-bottom: 40px;
+}
+#rd_div_headder{
+    
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-bottom: 20px;
+}
+#rd_div_desc{
+    width: 40%;
+    font-size: 18px;
+    color: rgb(139, 140, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.features{
+    display:flex ;
+    margin: 0 10%;
+    gap: 70px;
+    
+}
+#online_head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#online_desc{
+    font-size: 18px;
+    color: rgb(139, 140, 144);
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+.third_container{
+    position: relative;
+    background-color: rgb(167, 188, 221);
+    z-index: -5;
+}
+.fourth_div{
+    margin: 0% 10%;
+    padding-bottom: 100px;
+}
+#fourth_head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.sub_four{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+#img_article1{
+    height: 40%;
+    width:100%
+}
+#img_article{
+   height: 60%;
+   width:100%;
+}
+
+#author{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(139, 140, 144);
+}
+.img_container{
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.article_sub{
+    padding: 20px;
+}
+#article_head{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#article_desc{
+    color: rgb(1, 15, 15);
+}
+footer{
+    padding: 40px 0;
+    background-color: rgb(26, 23, 85);
+}
+.footer{
+    position: relative;
+     width: 100%;
+     height: 140%;   
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: contain;
+    left: -50px;
+}
+.logoicons{
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap:30px;
+}
+#logo{
+    width: 100%;
+}
+#menus{
+    color:white;
+}
+#menus1{    
+    position: relative;
+    right: 0px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer_menus1{
+
+    position: relative;
+    left: -280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer_menus{
+    position: relative;
+    left: -150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.copyrights{
+    display: flex;
+    position: relative;
+    right: -90px;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+#btn2{
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: rgb(54, 225, 23);
+    color:white;
+    object-fit: contain;
+    border-style: none;
+}
+@media(max-width:970px){
+   .next{
+    flex-direction: column-reverse;
+   }
+    
+}
